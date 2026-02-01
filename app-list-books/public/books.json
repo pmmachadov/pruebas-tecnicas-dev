@@ -1,0 +1,199 @@
+{
+  "library": [
+    {
+      "book": {
+        "title": "El Señor de los Anillos",
+        "pages": 1200,
+        "genre": "Fantasía",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg",
+        "synopsis": "Una aventura épica en la Tierra Media.",
+        "year": 1954,
+        "ISBN": "978-0618640157",
+        "author": {
+          "name": "J.R.R. Tolkien",
+          "otherBooks": ["El Hobbit", "El Silmarillion"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Juego de Tronos",
+        "pages": 694,
+        "genre": "Fantasía",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1273763400i/8189620.jpg",
+        "synopsis": "En un mundo donde los veranos duran décadas y los inviernos pueden durar toda una vida.",
+        "year": 1996,
+        "ISBN": "978-0553103540",
+        "author": {
+          "name": "George R. R. Martin",
+          "otherBooks": ["Choque de Reyes", "Tormenta de Espadas"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Harry Potter y la piedra filosofal",
+        "pages": 223,
+        "genre": "Fantasía",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550337333i/15868.jpg",
+        "synopsis": "Harry Potter descubre que es un mago.",
+        "year": 1997,
+        "ISBN": "978-0439708180",
+        "author": {
+          "name": "J.K. Rowling",
+          "otherBooks": ["Harry Potter y la cámara secreta", "Harry Potter y el prisionero de Azkaban"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "1984",
+        "pages": 328,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
+        "synopsis": "Una distopía sobre un futuro totalitario.",
+        "year": 1949,
+        "ISBN": "978-0451524935",
+        "author": {
+          "name": "George Orwell",
+          "otherBooks": ["Rebelión en la granja"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Dune",
+        "pages": 412,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+        "synopsis": "Una epopeya de aventuras en el planeta desértico Arrakis.",
+        "year": 1965,
+        "ISBN": "978-0441172719",
+        "author": {
+          "name": "Frank Herbert",
+          "otherBooks": ["El mesías de Dune", "Hijos de Dune"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La sombra del viento",
+        "pages": 487,
+        "genre": "Drama",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1695784796i/1232.jpg",
+        "synopsis": "En la Barcelona de posguerra, un joven descubre un libro maldito.",
+        "year": 2001,
+        "ISBN": "978-8408043640",
+        "author": {
+          "name": "Carlos Ruiz Zafón",
+          "otherBooks": ["El juego del ángel", "El prisionero del cielo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Cien años de soledad",
+        "pages": 417,
+        "genre": "Realismo mágico",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1706185723i/1246831.jpg",
+        "synopsis": "La historia de la familia Buendía en el pueblo de Macondo.",
+        "year": 1967,
+        "ISBN": "978-0060883287",
+        "author": {
+          "name": "Gabriel García Márquez",
+          "otherBooks": ["El amor en los tiempos del cólera", "Crónica de una muerte anunciada"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El código Da Vinci",
+        "pages": 689,
+        "genre": "Suspense",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579621267i/968.jpg",
+        "synopsis": "Un thriller sobre secretos ocultos en obras de arte.",
+        "year": 2003,
+        "ISBN": "978-0307474278",
+        "author": {
+          "name": "Dan Brown",
+          "otherBooks": ["Ángeles y demonios", "El símbolo perdido"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Orgullo y prejuicio",
+        "pages": 279,
+        "genre": "Romance",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320399351i/1885.jpg",
+        "synopsis": "Una historia de amor en la Inglaterra del siglo XIX.",
+        "year": 1813,
+        "ISBN": "978-0141439518",
+        "author": {
+          "name": "Jane Austen",
+          "otherBooks": ["Sentido y sensibilidad", "Emma"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El hobbit",
+        "pages": 300,
+        "genre": "Fantasía",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+        "synopsis": "Bilbo Bolsón se embarca en una aventura épica.",
+        "year": 1937,
+        "ISBN": "978-0345339683",
+        "author": {
+          "name": "J.R.R. Tolkien",
+          "otherBooks": ["El Señor de los Anillos", "El Silmarillion"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Fahrenheit 451",
+        "pages": 249,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1383718290i/13079982.jpg",
+        "synopsis": "Una sociedad futurista donde los libros están prohibidos.",
+        "year": 1953,
+        "ISBN": "978-1451673319",
+        "author": {
+          "name": "Ray Bradbury",
+          "otherBooks": ["Crónicas marcianas", "El hombre ilustrado"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El principito",
+        "pages": 96,
+        "genre": "Infantil",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1367545443i/157993.jpg",
+        "synopsis": "Un pequeño príncipe viaja de planeta en planeta.",
+        "year": 1943,
+        "ISBN": "978-0156012195",
+        "author": {
+          "name": "Antoine de Saint-Exupéry",
+          "otherBooks": ["Vuelo nocturno", "Tierra de hombres"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Matar a un ruiseñor",
+        "pages": 324,
+        "genre": "Drama",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657.jpg",
+        "synopsis": "Una historia sobre la injusticia racial en el sur de Estados Unidos.",
+        "year": 1960,
+        "ISBN": "978-0061120084",
+        "author": {
+          "name": "Harper Lee",
+          "otherBooks": ["Ve y pon un centinela"]
+        }
+      }
+    }
+  ]
+}
