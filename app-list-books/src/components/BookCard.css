@@ -1,84 +1,113 @@
 .book-card {
   background: white;
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .book-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
 }
 
 .book-cover {
   width: 100%;
-  height: 300px;
+  height: 320px;
   object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+  background: #f3f4f6;
+}
+
+.book-card:hover .book-cover {
+  transform: scale(1.05);
 }
 
 .book-info {
-  padding: 15px;
+  padding: 18px;
 }
 
 .book-title {
-  font-size: 1.2rem;
-  margin-bottom: 8px;
-  color: #333;
-  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .book-author {
   color: #666;
   font-size: 0.95rem;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  font-weight: 500;
 }
 
 .book-details {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
+  align-items: center;
+  margin-bottom: 16px;
   font-size: 0.9rem;
 }
 
 .book-genre {
-  background: #667eea;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
   color: white;
-  padding: 4px 12px;
-  border-radius: 15px;
+  padding: 6px 14px;
+  border-radius: 20px;
   font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 }
 
 .book-pages {
   color: #888;
+  font-weight: 500;
 }
 
 .btn-action {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
 }
 
 .btn-add {
-  background: #10b981;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
 }
 
 .btn-add:hover {
-  background: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
 }
 
 .btn-remove {
-  background: #ef4444;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
   color: white;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
 }
 
 .btn-remove:hover {
-  background: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+}
+
+.btn-action:active {
+  transform: translateY(0);
 }

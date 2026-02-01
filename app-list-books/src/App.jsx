@@ -84,15 +84,14 @@ function App() {
           </div>
         </div>
 
-        <div style={{ marginTop: '20px' }}>
-          <label htmlFor="genre-filter" style={{ color: 'white', marginRight: '10px' }}>
-            Filtrar por género:
+        <div className="filter-section">
+          <label htmlFor="genre-filter">
+            🔍 Filtrar por género:
           </label>
           <select 
             id="genre-filter"
             value={selectedGenre}
             onChange={(e) => setSelectedGenre(e.target.value)}
-            style={{ padding: '8px', borderRadius: '5px', border: 'none' }}
           >
             {genres.map(genre => (
               <option key={genre} value={genre}>{genre}</option>
@@ -103,11 +102,11 @@ function App() {
 
       <main className="main-content">
         <section>
-          <h2 style={{color: 'white', marginBottom: '20px'}}>Libros Disponibles</h2>
+          <h2 className="section-title">✨ Libros Disponibles</h2>
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
-            gap: '20px' 
+            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+            gap: '24px' 
           }}>
             {filteredBooks.map(book => (
               <BookCard
@@ -122,8 +121,8 @@ function App() {
         </section>
         
         <aside>
-          <h2 style={{color: 'white', marginBottom: '20px'}}>📚 Lista de Lectura</h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+          <h2 className="section-title">📚 Mi Lista de Lectura</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
             {readingList.map(book => (
               <BookCard
                 key={book.book.ISBN}

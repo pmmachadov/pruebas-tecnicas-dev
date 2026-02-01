@@ -77,16 +77,16 @@
     },
     {
       "book": {
-        "title": "La sombra del viento",
-        "pages": 487,
-        "genre": "Drama",
-        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1695784796i/1232.jpg",
-        "synopsis": "En la Barcelona de posguerra, un joven descubre un libro maldito.",
-        "year": 2001,
-        "ISBN": "978-8408043640",
+        "title": "Don Quijote de la Mancha",
+        "pages": 863,
+        "genre": "Clásico",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546112331i/3836.jpg",
+        "synopsis": "Las aventuras del ingenioso hidalgo y su fiel escudero Sancho Panza.",
+        "year": 1605,
+        "ISBN": "978-0060934347",
         "author": {
-          "name": "Carlos Ruiz Zafón",
-          "otherBooks": ["El juego del ángel", "El prisionero del cielo"]
+          "name": "Miguel de Cervantes",
+          "otherBooks": ["Novelas ejemplares", "La Galatea"]
         }
       }
     },
@@ -95,7 +95,7 @@
         "title": "Cien años de soledad",
         "pages": 417,
         "genre": "Realismo mágico",
-        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1706185723i/1246831.jpg",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327881361i/320.jpg",
         "synopsis": "La historia de la familia Buendía en el pueblo de Macondo.",
         "year": 1967,
         "ISBN": "978-0060883287",
