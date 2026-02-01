@@ -30,6 +30,21 @@ function App() {
     localStorage.setItem('readingList', JSON.stringify(readingList))
   }, [readingList])
 
+  // Sincronización entre pestañas
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      if (e.key === 'readingList' && e.newValue) {
+        setReadingList(JSON.parse(e.newValue))
+      }
+    }
+
+    window.addEventListener('storage', handleStorageChange)
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange)
+    }
+  }, [])
+
   // Agregar libro a lista de lectura
   const addToReadingList = (book) => {
     setReadingList([...readingList, book])
